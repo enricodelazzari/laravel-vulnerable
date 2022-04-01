@@ -2,9 +2,9 @@
 
 namespace Enrico\Vulnarable\Tests;
 
+use Enrico\Vulnarable\VulnarableServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Enrico\Vulnarable\VulnarableServiceProvider;
 
 class TestCase extends Orchestra
 {
