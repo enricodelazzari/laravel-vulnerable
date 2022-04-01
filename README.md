@@ -1,22 +1,9 @@
+# Laravel vulnerable
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
-# This is my package laravel-vulnerable
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/enricodelazzari/laravel-vulnerable.svg?style=flat-square)](https://packagist.org/packages/enricodelazzari/laravel-vulnerable)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/enricodelazzari/laravel-vulnerable/run-tests?label=tests)](https://github.com/enricodelazzari/laravel-vulnerable/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/enricodelazzari/laravel-vulnerable/Check%20&%20fix%20styling?label=code%20style)](https://github.com/enricodelazzari/laravel-vulnerable/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/enricodelazzari/laravel-vulnerable.svg?style=flat-square)](https://packagist.org/packages/enricodelazzari/laravel-vulnerable)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-vulnerable.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-vulnerable)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+Quickly and easily adds vulnerabilities to your project
 
 ## Installation
 
@@ -26,38 +13,16 @@ You can install the package via composer:
 composer require enricodelazzari/laravel-vulnerable
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-vulnerable-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="laravel-vulnerable-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-vulnerable-views"
-```
-
 ## Usage
 
-```php
-$vulnarable = new Enrico\Vulnarable();
-echo $vulnarable->echoPhrase('Hello, Enrico!');
+It's really simple to use. Just run this command:
+```bash
+php artisan make:vulnerability
 ```
+
+When done, you should see this message:
+> All done, your project is vulnerable!
+
 
 ## Testing
 
@@ -72,10 +37,6 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 ## Contributing
 
 Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
 ## Credits
 

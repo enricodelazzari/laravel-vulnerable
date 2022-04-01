@@ -1,6 +1,6 @@
 {
     "name": "enricodelazzari/laravel-vulnerable",
-    "description": "This is my package laravel-vulnerable",
+    "description": "Quickly and easily adds vulnerabilities to your project",
     "keywords": [
         "enricodelazzari",
         "laravel",
