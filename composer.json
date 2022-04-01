@@ -55,10 +55,7 @@
         "laravel": {
             "providers": [
                 "Enrico\\Vulnarable\\VulnarableServiceProvider"
-            ],
-            "aliases": {
-                "Vulnarable": "Enrico\\Vulnarable\\Facades\\Vulnarable"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
