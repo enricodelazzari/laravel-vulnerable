@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "enricodelazzari/laravel-vulnerable",
+    "description": "This is my package laravel-vulnerable",
     "keywords": [
-        ":vendor_name",
+        "enricodelazzari",
         "laravel",
-        ":package_slug"
+        "laravel-vulnerable"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/enricodelazzari/laravel-vulnerable",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Enrico De Lazzari",
+            "email": "enrico.delazzari@h-farm.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Enrico\\Vulnarable\\": "src",
+            "Enrico\\Vulnarable\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Enrico\\Vulnarable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Enrico\\Vulnarable\\VulnarableServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Vulnarable": "Enrico\\Vulnarable\\Facades\\Vulnarable"
             }
         }
     },

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Enrico\Vulnarable\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class VulnarableCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-vulnerable';
 
     public $description = 'My command';
 
