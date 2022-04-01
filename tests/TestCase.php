@@ -2,8 +2,8 @@
 
 namespace Enrico\Vulnarable\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Enrico\Vulnarable\VulnarableServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

@@ -2,9 +2,9 @@
 
 namespace Enrico\Vulnarable;
 
+use Enrico\Vulnarable\Commands\VulnarableCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Enrico\Vulnarable\Commands\VulnarableCommand;
 
 class VulnarableServiceProvider extends PackageServiceProvider
 {
